@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ambika Foods | Fresh Idli & Dosa Batter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            🥣 Ambika Foods
+        </div>
+
+        <a href="#order" class="header-order-btn">
+            Order Now
+        </a>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="tagline">
+                🌿 Fresh • Homemade • Delivered
+            </p>
+
+            <h1>
+                Fresh Idli &<br>
+                Dosa Batter
+            </h1>
+
+            <p class="hero-text">
+                Freshly prepared batter delivered to your doorstep
+                every morning.
+            </p>
+
+            <div class="price">
+                ₹70 <span>/ kg</span>
+            </div>
+
+            <p class="delivery-info">
+                🚚 Free Home Delivery<br>
+                🕘 Delivery between 9 AM – 2 PM
+            </p>
+
+            <a href="#order" class="main-order-btn">
+                🛒 Order Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Product Section -->
+    <section class="product">
+
+        <p class="section-label">
+            OUR PRODUCT
+        </p>
+
+        <h2>
+            Fresh Idli + Dosa Batter
+        </h2>
+
+        <p class="product-description">
+            Perfect for soft idlis and delicious dosas.
+            Freshly prepared for your family.
+        </p>
+
+        <div class="product-card">
+
+            <div class="product-icon">
+                🥣
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Idli + Dosa Batter
+                </h3>
+
+                <p>
+                    ₹70 / kg
+                </p>
+
+            </div>
+
+            <a href="#order" class="select-btn">
+                Select
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Delivery Areas -->
+    <section class="delivery">
+
+        <p class="section-label">
+            HOME DELIVERY
+        </p>
+
+        <h2>
+            We Deliver Near You
+        </h2>
+
+        <div class="areas">
+
+            <div class="area">
+                📍 Dhokali
+            </div>
+
+            <div class="area">
+                📍 Kolshet
+            </div>
+
+            <div class="area">
+                📍 Manorama Nagar
+            </div>
+
+            <div class="area">
+                📍 Brahmand
+            </div>
+
+        </div>
+
+        <p class="delivery-time">
+            🕘 Delivery Time: <strong>9 AM – 2 PM</strong>
+        </p>
+
+    </section>
+
+
+    <!-- Order Section -->
+<section class="order" id="order">
+
+    <p class="section-label">
+        QUICK ORDER
+    </p>
+
+    <h2>
+        Order Fresh Batter
+    </h2>
+
+    <p class="order-subtitle">
+        Fill in your details and place your order on WhatsApp.
+    </p>
+
+    <div class="order-card">
+
+        <!-- Product -->
+        <div class="checkout-product">
+
+            <div class="checkout-product-icon">
+                🥣
+            </div>
+
+            <div>
+                <h3>Idli + Dosa Batter</h3>
+                <p>₹70 / kg</p>
+            </div>
+
+        </div>
+
+
+        <!-- Quantity -->
+        <label>Quantity</label>
+
+        <div class="quantity">
+
+            <button type="button" id="decrease">
+                −
+            </button>
+
+            <span id="quantity">
+                1 kg
+            </span>
+
+            <button type="button" id="increase">
+                +
+            </button>
+
+        </div>
+
+
+        <!-- Customer Details -->
+
+        <div class="form-section">
+
+            <h3>📋 Delivery Details</h3>
+
+            <label for="customerName">
+                Your Name
+            </label>
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Enter your name"
+            >
+
+
+            <label for="phone">
+                Mobile Number
+            </label>
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your mobile number"
+                maxlength="10"
+            >
+
+
+            <label for="area">
+                Delivery Area
+            </label>
+
+            <select id="area">
+
+                <option value="">
+                    Select your area
+                </option>
+
+                <option value="Dhokali">
+                    Dhokali
+                </option>
+
+                <option value="Kolshet">
+                    Kolshet
+                </option>
+
+                <option value="Manorama Nagar">
+                    Manorama Nagar
+                </option>
+
+                <option value="Brahmand">
+                    Brahmand
+                </option>
+
+            </select>
+
+
+            <label for="address">
+                Full Address
+            </label>
+
+            <textarea
+                id="address"
+                rows="3"
+                placeholder="Flat/House No., Building, Street..."
+            ></textarea>
+
+
+            <label for="landmark">
+                Landmark
+            </label>
+
+            <input
+                type="text"
+                id="landmark"
+                placeholder="Nearby landmark"
+            >
+
+
+            <label for="deliveryTime">
+                Preferred Delivery Time
+            </label>
+
+            <select id="deliveryTime">
+
+                <option value="">
+                    Select delivery time
+                </option>
+
+                <option value="9 AM - 11 AM">
+                    9 AM - 11 AM
+                </option>
+
+                <option value="11 AM - 1 PM">
+                    11 AM - 1 PM
+                </option>
+
+                <option value="1 PM - 2 PM">
+                    1 PM - 2 PM
+                </option>
+
+            </select>
+
+        </div>
+
+
+   <!-- Payment -->
+<div class="form-section">
+
+    <h3>💳 Payment Method</h3>
+
+    <div class="payment-options">
+
+        <label class="payment-option">
+
+            <input
+                type="radio"
+                name="payment"
+                value="UPI"
+                id="upiPayment"
+            >
+
+            <span>
+                📱 UPI
+            </span>
+
+        </label>
+
+
+        <label class="payment-option">
+
+            <input
+                type="radio"
+                name="payment"
+                value="Cash on Delivery"
+                id="codPayment"
+            >
+
+            <span>
+                💵 Cash on Delivery
+            </span>
+
+        </label>
+
+    </div>
+
+
+    <!-- UPI Payment -->
+
+    <div id="upiDetails" class="upi-details">
+
+        <div class="upi-title">
+            📱 Pay using UPI
+        </div>
+
+        <p class="upi-instruction">
+            Scan the QR code using any UPI app
+        </p>
+
+
+        <!-- QR Code -->
+
+        <div class="upi-qr-container">
+
+            <img
+                src="upi-qr.jpg"
+                alt="Amika Foods UPI QR Code"
+                class="upi-qr"
+            >
+
+        </div>
+
+
+        <p class="scan-text">
+            Scan to pay
+        </p>
+
+
+        <!-- UPI ID -->
+
+        <p class="upi-label">
+            UPI ID
+        </p>
+
+        <div class="upi-id">
+            gounderpriyanka2005-1@oksbi
+        </div>
+
+
+        <!-- UPI App Button -->
+
+        <button
+            type="button"
+            id="upiPayButton"
+            class="upi-pay-btn"
+        >
+            📱 Pay ₹<span id="upiAmount">70</span> via UPI
+        </button>
+
+
+        <p class="upi-note">
+
+            After completing payment, come back and
+            click <strong>Order on WhatsApp</strong>.
+
+        </p>
+
+    </div>
+
+
+    <!-- COD -->
+
+    <div id="codDetails" class="cod-details">
+
+        <div class="cod-title">
+            💵 Cash on Delivery
+        </div>
+
+        <p>
+            Pay when your batter is delivered to your home.
+        </p>
+
+    </div>
+
+</div>
+
+
+        <!-- Order Summary -->
+
+        <div class="summary">
+
+            <h3>
+                🧾 Order Summary
+            </h3>
+
+            <div class="summary-row">
+
+                <span>
+                    Batter
+                </span>
+
+                <span>
+                    ₹<span id="summaryProductPrice">70</span>
+                </span>
+
+            </div>
+
+
+            <div class="summary-row">
+
+                <span>
+                    Delivery
+                </span>
+
+                <span class="free">
+                    FREE
+                </span>
+
+            </div>
+
+
+            <div class="summary-total">
+
+                <span>
+                    Total
+                </span>
+
+                <span>
+                    ₹<span id="total">70</span>
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- WhatsApp -->
+
+        <button
+            type="button"
+            class="whatsapp-btn"
+            id="whatsappOrder"
+        >
+            🟢 Order on WhatsApp
+        </button>
+
+
+        <p class="whatsapp-note">
+            Your order details will open in WhatsApp.
+        </p>
+
+    </div>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>
+            🥣 Ambika Foods
+        </h3>
+
+        <p>
+            Fresh Idli + Dosa Batter
+        </p>
+
+        <p>
+            Dhokali • Kolshet • Manorama Nagar • Brahmand
+        </p>
+
+        <p class="copyright">
+            © 2026 Ambika Foods
+        </p>
+
+    </footer>
+
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
