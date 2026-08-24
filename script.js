@@ -2,15 +2,15 @@
 // AMBIKA FOODS
 // Razorpay Test Payment
 // ==========================================
-const BACKEND_URL =
-    "https://ambika-foods.onrender.com";
+
+const BACKEND_URL = "https://ambika-foods.onrender.com";
 
 
 const PRICE_PER_KG = 70;
 
 // ⚠️ Replace with your father's WhatsApp number.
 // Example: 919876543210
-const WHATSAPP_NUMBER = "919XXXXXXXXX";
+const WHATSAPP_NUMBER = "918779978520";
 
 let quantity = 1;
 
