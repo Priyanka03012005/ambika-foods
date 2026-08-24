@@ -10,7 +10,7 @@ const PRICE_PER_KG = 70;
 
 // ⚠️ Replace with your father's WhatsApp number.
 // Example: 919876543210
-const WHATSAPP_NUMBER = "918779978520";
+const WHATSAPP_NUMBER = "919221446199";
 
 let quantity = 1;
 
