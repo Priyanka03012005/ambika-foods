@@ -2,6 +2,9 @@
 // AMBIKA FOODS
 // Razorpay Test Payment
 // ==========================================
+const BACKEND_URL =
+    "https://ambika-foods.onrender.com/";
+
 
 const PRICE_PER_KG = 70;
 
@@ -190,7 +193,7 @@ upiPayButton.addEventListener(
 
             const response =
                 await fetch(
-                    "http://localhost:3000/create-order",
+                    `${BACKEND_URL}/create-order`,
                     {
 
                         method: "POST",
@@ -338,9 +341,7 @@ async function verifyPayment(
     try {
 
         const response =
-            await fetch(
-                "http://localhost:3000/verify-payment",
-                {
+            await fetch(`${BACKEND_URL}/verify-payment`, {
 
                     method: "POST",
 
