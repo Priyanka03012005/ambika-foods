@@ -3,7 +3,7 @@
 // Razorpay Test Payment
 // ==========================================
 const BACKEND_URL =
-    "https://ambika-foods.onrender.com/";
+    "https://ambika-foods.onrender.com";
 
 
 const PRICE_PER_KG = 70;
